@@ -1,0 +1,29 @@
+{
+	"name" : "riccardonar/php-int4range",
+	"description" : "Php integer range implementation, usualy used in PgSQL database",
+	"keywords" : [
+		"integer",
+		"range",
+		"pgsql",
+		"daterange"
+	],
+	"homepage" : "https://github.com/riccardonar/php-intrange",
+	"license" : [
+		"BSD-3-Clause",
+		"GPL-3.0"
+	],
+	"authors" : [{
+			"name" : "Adam Schubet",
+			"homepage" : "http://www.salamek.cz"
+		}
+	],
+	"autoload" : {
+		"classmap" : [
+			"src/"
+		]
+	},
+	"require" : {
+		"php" : ">=5.5.0"
+	},
+	"minimum-stability" : "dev"
+}
