@@ -1,5 +1,7 @@
 # php-intrange
 
+Thanks to @Salamek, this is an adapt to https://github.com/Salamek/php-intrange
+
 Php integer range implementation, usualy used in PgSQL database
 
 ```php
@@ -7,7 +9,7 @@ Php integer range implementation, usualy used in PgSQL database
 
 $intRange = new riccardonar\IntRange($startInt, $endInt);
 
-$intRange->getStartint(); //$startInt
+$intRange->getStartInt(); //$startInt
 $intRange->getEndInt(); //$endInt
 
 ```
