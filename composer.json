@@ -1,5 +1,5 @@
 {
-	"name" : "riccardonar/php-int4range",
+	"name" : "riccardonar/php-intrange",
 	"description" : "Php integer range implementation, usualy used in PgSQL database",
 	"keywords" : [
 		"integer",
@@ -13,8 +13,8 @@
 		"GPL-3.0"
 	],
 	"authors" : [{
-			"name" : "Adam Schubet",
-			"homepage" : "http://www.salamek.cz"
+			"name" : "Riccardo Narduzzi",
+			"homepage" : "https://github.com/riccardonar"
 		}
 	],
 	"autoload" : {
@@ -23,7 +23,7 @@
 		]
 	},
 	"require" : {
-		"php" : ">=5.5.0"
+		"php" : ">=5.3.0"
 	},
 	"minimum-stability" : "dev"
 }
