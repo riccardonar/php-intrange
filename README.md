@@ -1,6 +1,6 @@
 # php-intrange
 
-Thanks to @Salamek, this is an adapt to https://github.com/Salamek/php-intrange
+Thanks to Salamek, this is an adapt to https://github.com/Salamek/php-daterange
 
 Php integer range implementation, usualy used in PgSQL database
 
