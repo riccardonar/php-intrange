@@ -8,10 +8,6 @@
 		"daterange"
 	],
 	"homepage" : "https://github.com/riccardonar/php-intrange",
-	"license" : [
-		"BSD-3-Clause",
-		"GPL-3.0"
-	],
 	"authors" : [{
 			"name" : "Riccardo Narduzzi",
 			"homepage" : "https://github.com/riccardonar"
@@ -24,6 +20,5 @@
 	},
 	"require" : {
 		"php" : ">=5.3.0"
-	},
-	"minimum-stability" : "dev"
+	}
 }
