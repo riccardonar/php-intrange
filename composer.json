@@ -5,19 +5,18 @@
 		"integer",
 		"range",
 		"pgsql",
-		"daterange"
+		"intrange"
 	],
 	"homepage" : "https://github.com/riccardonar/php-intrange",
-	"license" : "MIT",
 	"authors" : [{
 			"name" : "Riccardo Narduzzi",
 			"homepage" : "https://github.com/riccardonar"
 		}
 	],
 	"autoload" : {
-		"classmap" : [
-			"src/"
-		]
+        "psr-4" : {
+            "riccardonar\\" : "src/"
+        }
 	},
 	"require" : {
 		"php" : ">=5.3.0"
