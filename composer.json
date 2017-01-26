@@ -14,9 +14,7 @@
 		}
 	],
 	"autoload" : {
-        "psr-4" : {
-            "riccardonar\\" : "src/"
-        }
+        "classmap": ["src/"]
 	},
 	"require" : {
 		"php" : ">=5.3.0"
