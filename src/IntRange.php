@@ -8,38 +8,38 @@ class IntRange
      *
      * @var integer
      */
-    private $startInt;
+    private $start;
 
     /**
      *
      * @var integer
      */
-    private $endInt;
+    private $end;
 
     /**
-     * @param integer $startInt
-     * @param integer $endInt
+     * @param integer $start
+     * @param integer $end
      */
-    public function __construct($startInt, $endInt)
+    public function __construct($start, $end)
     {
-        $this->startInt = $startInt;
-        $this->endInt = $endInt;
+        $this->start = $start;
+        $this->end = $end;
     }
 
     /**
      * @return integer
      */
-    public function getStartInt()
+    public function getStart()
     {
-        return $this->startInt;
+        return $this->start;
     }
 
     /**
      * @return integer
      */
-    public function getEndInt()
+    public function getEnd()
     {
-        return $this->endInt;
+        return $this->end;
     }
 
     /**
@@ -48,7 +48,7 @@ class IntRange
      */
     public static function toString(IntRange $intRange)
     {
-        return sprintf('[%s,%s]', $intRange->getStartInt(), $intRange->getEndInt());
+        return sprintf('[%s,%s]', $intRange->getStar(), $intRange->getEnd());
     }
 
     /**
@@ -58,8 +58,8 @@ class IntRange
     public static function fromString($string)
     {
         $clean = strtr($string, ['[' => '', ']' => '', '(' => '', ')' => '']);
-        list($startInt, $endInt) = explode(',', $clean);
-        return new self($startInt, $endInt);
+        list($start, $end) = explode(',', $clean);
+        return new self($start, $end);
     }
 
     /**
