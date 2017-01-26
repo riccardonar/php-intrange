@@ -8,6 +8,7 @@
 		"daterange"
 	],
 	"homepage" : "https://github.com/riccardonar/php-intrange",
+	"license" : "MIT",
 	"authors" : [{
 			"name" : "Riccardo Narduzzi",
 			"homepage" : "https://github.com/riccardonar"
