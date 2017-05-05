@@ -48,7 +48,7 @@ class IntRange
      */
     public static function toString(IntRange $intRange)
     {
-        return sprintf('[%s,%s]', $intRange->getStar(), $intRange->getEnd());
+        return sprintf('[%s,%s]', $intRange->getStart(), $intRange->getEnd());
     }
 
     /**
