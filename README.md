@@ -9,7 +9,7 @@ Php integer range implementation, usualy used in PgSQL database
 
 $intRange = new riccardonar\IntRange($startInt, $endInt);
 
-$intRange->getStartInt(); //$startInt
-$intRange->getEndInt(); //$endInt
+$intRange->getStart(); //$startInt
+$intRange->getEnd(); //$endInt
 
 ```
