@@ -13,6 +13,7 @@
 			"homepage" : "https://github.com/riccardonar"
 		}
 	],
+	"license": "MIT",
 	"autoload" : {
         "classmap": ["src/"]
 	},
